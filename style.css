@@ -1,0 +1,65 @@
+*,
+html,
+body {
+  position: relative;
+  background-image: url(./img/station.jpg);
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Asap', 'Poppins', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+html h1 {
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+html h2 {
+  background: transparent;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+html h3 {
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+html h3 span {
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+html button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+html #increment-btn {
+  text-transform: capitalize;
+  background: darkred;
+}
+
+html #save-btn {
+  text-transform: capitalize;
+  background: darkgreen;
+}
+
+html #clear-btn {
+  text-transform: capitalize;
+  background: blue;
+}
